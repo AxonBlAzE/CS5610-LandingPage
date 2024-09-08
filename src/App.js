@@ -1,23 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        Shreyans Mulkutkar
+      </h1>
+      <h2>
+        CS5610 - 20596
+      </h2>
+      <table>
+        <thead>
+          <tr>
+            <th>
+              Assignment Name
+            </th>
+            <th>
+              Description
+            </th>
+            <th>
+              Link
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              Assignment 1
+            </th>
+            <th>
+              Created a landing page for CS5610 that will contain the hyperlinks to all the following assignments.
+            </th>
+            <th>
+              <a href=''> 
+                <p>
+                  A1
+                </p>
+              </a>
+            </th>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
