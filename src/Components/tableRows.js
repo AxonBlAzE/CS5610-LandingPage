@@ -1,3 +1,5 @@
+import { BsArrowUpRightSquare } from "react-icons/bs";
+
 const TableRow = ({name, description, url}) => {
     return ( 
     <tr>
@@ -10,7 +12,7 @@ const TableRow = ({name, description, url}) => {
         <th>
           <a href={url}> 
             <p>
-              A1
+              <BsArrowUpRightSquare />
             </p>
           </a>
         </th>
