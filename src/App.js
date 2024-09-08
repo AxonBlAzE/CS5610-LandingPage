@@ -1,4 +1,5 @@
 import './App.css';
+import TableRow from "./Components/tableRows";
 
 function App() {
   return (
@@ -24,21 +25,11 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th>
-              Assignment 1
-            </th>
-            <th>
-              Created a landing page for CS5610 that will contain the hyperlinks to all the following assignments.
-            </th>
-            <th>
-              <a href=''> 
-                <p>
-                  A1
-                </p>
-              </a>
-            </th>
-          </tr>
+          <TableRow 
+            name = "Assignment 1"
+            description = "Created a landing page for CS5610 that will contain the hyperlinks to all the following assignments."
+            url = 'https://main--cs5610-landingpage-shreyansmulkutkar.netlify.app/' 
+          />
         </tbody>
       </table>
     </div>
