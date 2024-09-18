@@ -14,6 +14,7 @@ function App() {
       </h2>
       <div class="button-container">
         <a href='https://github.com/AxonBlAzE/CS5610-LandingPage'><button class="button"> Landing Page Repo <FaGithub/></button></a>
+        <a href='https://github.com/AxonBlAzE/CS5610-Lab-Work/tree/lab1'><button class="button"> Lab Work Repo <FaGithub/></button></a>
         <a href='https://main--kanbas-webapp-sm.netlify.app/'><button class="button"> Go to Kanbas <BsArrowUpRightSquare/></button></a>
         <a href='https://github.com/AxonBlAzE/CS5610-Kanbas'><button class="button"> Kanbas Repo <FaGithub/></button></a>
       </div>
@@ -34,8 +35,8 @@ function App() {
         <tbody>
           <TableRow 
             name = "A1"
-            description = "Created a landing page for CS5610 that will contain the hyperlinks to all the following assignments."
-            url = 'https://main--cs5610-landingpage-shreyansmulkutkar.netlify.app/' 
+            description = "Created a landing page for CS5610 that will contain the hyperlinks to all the following assignments as well as implemented the lab-work which includes getting familiar with headings, paragraphs, lists, links, tables and routing."
+            url = 'https://cs5610-labwork-shreyansmulkutkar.netlify.app/' 
           />
           <TableRow 
             name = "A2"
