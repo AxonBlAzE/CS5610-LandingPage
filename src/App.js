@@ -15,8 +15,8 @@ function App() {
       <div class="button-container">
         <a href='https://github.com/AxonBlAzE/CS5610-LandingPage'><button class="button"> Landing Page Repo <FaGithub/></button></a>
         <a href='https://github.com/AxonBlAzE/CS5610-Lab-Work/tree/lab1'><button class="button"> Lab Work Repo <FaGithub/></button></a>
-        <a href='https://main--kanbas-webapp-sm.netlify.app/'><button class="button"> Go to Kanbas <BsArrowUpRightSquare/></button></a>
         <a href='https://github.com/AxonBlAzE/CS5610-Kanbas'><button class="button"> Kanbas Repo <FaGithub/></button></a>
+        <a href='https://main--kanbas-webapp-sm.netlify.app/'><button class="button"> Go to Kanbas <BsArrowUpRightSquare/></button></a>
       </div>
       <table>
         <thead>
